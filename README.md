@@ -58,7 +58,8 @@ Each table in the database represents a real-world entity in a hospital system:
 
 The database was populated with realistic sample data for testing and demonstration purposes. This includes patients, doctors, departments, appointments, and medical records.
 
-The full script for the insertion of values can be viewed [here](Insert Data.sql)
+The full script for the insertion of values can be viewed [here](Insert%20Data.sql)
+
 
 
 
