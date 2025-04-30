@@ -3,7 +3,7 @@
 INSERT INTO Patients (
     first_name, last_name,
     DOB, gender, address,
-    username, password, 
+    username, password,
     insurance_info, email, 
     telephone_number, DOE
 )
