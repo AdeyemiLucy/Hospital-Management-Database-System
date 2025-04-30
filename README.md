@@ -1,5 +1,5 @@
 # Hospital-Management-Database-System
-A relational database system built with SQL Server for managing hospital operations  including patient registration, appointments, medical records. Designed for healthcare data tracking and query-based insights.
+This project presents a relational database system built with SQL Server for managing hospital operations  including patient registration, appointments, medical records. Designed for healthcare data tracking and query-based insights. It is ideal for understanding relational database design in a healthcare setting and practicing SQL query writing, table normalization, and real-world data management.
 This project simulates a hospital management database system using SQL Server. It is designed to handle essential healthcare operations such as:
 
 - Patient registration and profile management
@@ -8,7 +8,6 @@ This project simulates a hospital management database system using SQL Server. I
 - Storage of medical records including diagnoses and prescriptions
 - Querying patient demographics and visit patterns
 
-This project is ideal for understanding relational database design in a healthcare setting and practicing SQL query writing, table normalization, and real-world data management.
 
 ##  Database and Table Design
 
@@ -31,7 +30,7 @@ Each table in the database represents a real-world entity in a hospital system:
 
 2. Doctors- This stores doctor profile information including department and specialty.
 
-doctor_id (Primary Key)
+- doctor_id (Primary Key)
 - first_name, last_name
 - specialization
 - department_id (Foreign Key from Departments)
@@ -49,13 +48,13 @@ doctor_id (Primary Key)
 - status (scheduled, cancelled, completed)
 
 5. Medical_Records - Stores patient diagnosis and prescription data.
-- record_id (Primary Key, auto-increments by 2)
+- record_id (Primary Key)
 - patient_id (FK from Patients)
 - diagnosis
 - prescription
 
 
-##  Database Population
+##  Insertion of data
 
 The database was populated with realistic sample data for testing and demonstration purposes. This includes patients, doctors, departments, appointments, and medical records.
 
